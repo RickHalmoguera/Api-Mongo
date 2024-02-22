@@ -2,7 +2,8 @@
   "scripts": {
     "start": "nodemon server.ts",
     "test": "jest",
-    "build": "rimraf dist && tsc"
+    "build": "rimraf dist && tsc",
+    "deploy": "serverless deploy"
   },
   "dependencies": {
     "@types/jest": "^29.5.11",
