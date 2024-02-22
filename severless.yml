@@ -1,4 +1,4 @@
-service: sprint-6-
+service: Api-Mongo
 plugins:
   - serverless-dotenv-plugin
 frameworkVersion: "3"
