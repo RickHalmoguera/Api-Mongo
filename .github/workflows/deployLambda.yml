@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  deploy_and_test:
+  Deploy_Api:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,7 +23,8 @@ jobs:
 
       - name: Compile typescript
         run: npm run build
-        
+
+
       - name: Deploy serverless
         uses: serverless/github-action@v3.2
         with:
